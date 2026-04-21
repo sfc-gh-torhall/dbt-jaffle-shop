@@ -1,0 +1,12 @@
+default:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: SFSENORTHAMERICA-THALL_AWS_WEST_2
+      user: THALL
+      role: ACCOUNTADMIN
+      database: DEMO_DBT
+      warehouse: COMPUTE_WH
+      schema: JAFFLE_SHOP
+      threads: 4
